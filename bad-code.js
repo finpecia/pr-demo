@@ -1,13 +1,13 @@
-const DB_PASSWORD = "supersecret123";  // hardcoded secret
+const DB_PASSWORD = "supersecret123";  
 
 function add(a, b) {
-    return a + c;  // wrong variable
+    return a + c;  
 }
 
 function getUser(userId) {
-    const query = "SELECT * FROM users WHERE id = " + userId;  // sql injection
+    const query = "SELECT * FROM users WHERE id = " + userId;  
     db.execute(query);
 }
 
 var x = undefined;
-console.log(x.name);  // will crash, can't read property of undefined
+console.log(x.name);  
